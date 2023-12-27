@@ -1,0 +1,153 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stili globali */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+	background-color: #fff;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+/* ... altri stili ... */
+
+
+header h1 {
+    margin: 0;
+}
+
+.logo {
+    max-width: 175px; /* Imposta la larghezza massima del logo */
+    margin-right: 10px; /* Aggiunge un margine a destra per separare l'immagine dal testo */
+
+}
+
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+}
+{
+	box-sizing: border-box;
+}
+
+.column {
+	float: left;
+	width: 25%;
+	padding: 5px;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #E0E0E0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+ 
+  height: 60%;
+  opacity: 0.9;
+}
+
+.cart{
+}
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 24px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+.prodotto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.prodotto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.prezzo {
+    font-weight: bold;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
